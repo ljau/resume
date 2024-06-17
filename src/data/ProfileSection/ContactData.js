@@ -21,12 +21,12 @@ export const ContactData = {
       {
         title: "linkedin.com/in/ljau/",
         icon: FaLinkedin,
-        href: "www.linkedin.com/in/ljau/",
+        href: "https://linkedin.com/in/ljau/",
       },
       {
         title: "github.com/ljau",
         icon: FaGithub,
-        href: "github.com/ljau",
+        href: "https://github.com/ljau",
       },
     ],
   },
