@@ -19,12 +19,12 @@ export const ContactData = {
         href: false,
       },
       {
-        title: "linkedin.com/in/luisjauregui/",
+        title: "linkedin.com/in/ljau/",
         icon: FaLinkedin,
-        href: "linkedin.com/in/luis-angel-jauregui/",
+        href: "www.linkedin.com/in/ljau/",
       },
       {
-        title: "github.com/LuisJauregui",
+        title: "github.com/ljau",
         icon: FaGithub,
         href: "github.com/ljau",
       },
