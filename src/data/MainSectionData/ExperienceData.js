@@ -8,6 +8,17 @@ export const ExperienceData = {
     icon: MdWork,
     list: [
       {
+        position: "Frontend Developer",
+        enterprise: "NAIVE labs, Colima",
+        time: "Jun 2024 - Temporary",
+        description:
+          "Development of web applications to manage users, materials and appointments information.",
+        tasks: [
+          "Development of progressive web application using React.js.",
+          "Consumption of REST Apis to feed applications.",
+        ],
+      },
+      {
         position: "System Monitoring for Radio and Television",
         enterprise: "Instituto Nacional Electoral, Colima",
         time: "Feb 2024 - Jun 2024",
@@ -31,8 +42,7 @@ export const ExperienceData = {
       },
       {
         position: "Front-end Web Developer",
-        enterprise:
-          "Tata Consultancy Services, Zapopan Jalisco",
+        enterprise: "Tata Consultancy Services, Zapopan Jalisco",
         time: "Sep 2022 - Sep 2023",
         description:
           "Development, creation, and modeling of components in React.js for a web application related to banking services.",
@@ -43,8 +53,7 @@ export const ExperienceData = {
       },
       {
         position: "System Administrator",
-        enterprise:
-          "Tata Consultancy Services, Zapopan Jalisco",
+        enterprise: "Tata Consultancy Services, Zapopan Jalisco",
         time: "Jan 2019 - Sep 2022",
         description:
           "Administration of Unix operating systems on physical and virtual machines.",
