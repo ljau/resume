@@ -29,6 +29,13 @@ const Enterprise = styled(Text)`
   color: ${colors.ghost};
 `;
 
+const Technologies = styled(Text)`
+  margin: 0 0 8px 0;
+  font-size: 14px;
+  color: ${colors.ghost};
+  font-weight: bold;
+`;
+
 const Description = styled(Text)``;
 
 const ListItem = styled(Text)``;
@@ -60,7 +67,7 @@ const OpenCloseButton = ({ open, setOpen }) => {
   );
 };
 
-const ExperienceItem = ({ position, enterprise, time, description, tasks }) => {
+const ExperienceItem = ({ position, enterprise, technologies, time, description, tasks }) => {
   const [open, setOpen] = useState(false);
   return (
     <ExperienceContainer>
@@ -69,6 +76,7 @@ const ExperienceItem = ({ position, enterprise, time, description, tasks }) => {
         <Time>{time}</Time>
       </TopContainer>
       <Enterprise>{enterprise}</Enterprise>
+      <Technologies>{technologies}</Technologies>
       <Description>{description}</Description>
       {open && (
         <ul>
