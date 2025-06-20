@@ -6,7 +6,6 @@ const ListContainer = styled.ul`
 
   @media (min-width: 768px) {
     ${({ hideOnDesktop }) => hideOnDesktop && "display: none;"}
- 
   }
   @media (max-width: 768px) {
     ${({ hideOnSmall }) => hideOnSmall && "display: none;"}
@@ -16,7 +15,7 @@ const ListContainer = styled.ul`
   }
 `;
 const ListItem = styled.li`
-  margin: 1rem 0;
+  margin: 0.5rem 0;
   font-size: 1rem;
   color: ${colors.white};
   display: flex;
@@ -27,8 +26,10 @@ const ListItem = styled.li`
   }
 `;
 const ListTitle = styled.h2`
-  font-size: 16px;
+  font-size: 18px;
   font-weight: 700;
+  margin-bottom: 8px;
+  letter-spacing: 1px;
 `;
 const GhostTitle = styled.span`
   color: ${colors.ghostText};

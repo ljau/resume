@@ -12,6 +12,10 @@ const IconContainer = styled.div`
 `;
 const Title = styled.h2`
   text-transform: uppercase;
+  font-size: 1.6rem;
+  font-weight: 800;
+  margin: 0 0 12px 0;
+  letter-spacing: 1px;
 `;
 const MainContainer = styled.div`
   max-width: 100%;

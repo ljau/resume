@@ -86,8 +86,8 @@ const ExperienceItem = ({
       <Description>{description}</Description>
       {open && (
         <ul>
-          {tasks.map((item) => (
-            <li>
+          {tasks.map((item, idx) => (
+            <li key={idx}>
               <ListItem>{item}</ListItem>
             </li>
           ))}
