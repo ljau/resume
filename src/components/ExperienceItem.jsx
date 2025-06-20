@@ -10,10 +10,8 @@ const ExperienceContainer = styled.div`
 `;
 
 const Position = styled(Text)`
-  line-height: 1.2;
-  font-size: 16px;
-  font-weight: 600;
-  text-align: left;
+  margin: 0 0 8px 0;
+  font-size: 14px;
 `;
 
 const Time = styled(Text)`
@@ -24,9 +22,10 @@ const Time = styled(Text)`
 `;
 
 const Enterprise = styled(Text)`
-  margin: 0 0 8px 0;
-  font-size: 14px;
-  color: ${colors.ghost};
+  line-height: 1.2;
+  font-size: 16px;
+  font-weight: 600;
+  text-align: left;
 `;
 
 const Technologies = styled(Text)`
@@ -67,15 +66,22 @@ const OpenCloseButton = ({ open, setOpen }) => {
   );
 };
 
-const ExperienceItem = ({ position, enterprise, technologies, time, description, tasks }) => {
+const ExperienceItem = ({
+  position,
+  enterprise,
+  technologies,
+  time,
+  description,
+  tasks,
+}) => {
   const [open, setOpen] = useState(false);
   return (
     <ExperienceContainer>
       <TopContainer>
-        <Position>{position}</Position>
+        <Enterprise>{enterprise}</Enterprise>
         <Time>{time}</Time>
       </TopContainer>
-      <Enterprise>{enterprise}</Enterprise>
+      <Position>{position}</Position>
       <Technologies>{technologies}</Technologies>
       <Description>{description}</Description>
       {open && (
